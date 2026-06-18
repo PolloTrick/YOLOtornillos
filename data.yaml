@@ -1,0 +1,21 @@
+# ============================================================
+# Configuración del Dataset - Detección de Tornillos
+# Proyecto: yolo-tornillos-industria
+# ============================================================
+
+path: ./dataset          # ruta raíz del dataset
+train: images/train      # imágenes de entrenamiento
+val: images/val          # imágenes de validación
+test: images/test        # imágenes de prueba
+
+# Número de clases
+nc: 2
+
+# Nombres de las clases
+names:
+  0: tornillo_presente
+  1: tornillo_ausente
+
+# Notas del dataset
+# - tornillo_presente: tornillo correctamente colocado en su posición
+# - tornillo_ausente:  posición vacía donde debería haber un tornillo

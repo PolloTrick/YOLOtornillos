@@ -1,0 +1,59 @@
+# ============================================================
+# .gitignore - Detección de Tornillos con YOLOv8
+# ============================================================
+
+# Pesos del modelo (archivos grandes - usar Git LFS si se necesitan)
+*.pt
+*.pth
+*.onnx
+*.engine
+
+# Dataset de imágenes (agregar manualmente o via DVC)
+dataset/images/raw/
+dataset/images/train/
+dataset/images/val/
+dataset/images/test/
+dataset/labels/raw/
+dataset/labels/train/
+dataset/labels/val/
+dataset/labels/test/
+
+# Resultados de entrenamiento (generados automáticamente)
+runs/
+
+# Resultados de inferencia con imágenes
+results/inferencias/detecciones/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Entornos virtuales
+venv/
+env/
+.env
+.venv
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log

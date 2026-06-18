@@ -1,0 +1,34 @@
+# ============================================================
+# Dependencias del Proyecto
+# Detección de Tornillos con YOLOv8
+# ============================================================
+# Instalar con:  pip install -r requirements.txt
+
+# Motor principal de YOLO
+ultralytics>=8.0.0
+
+# Visión computacional
+opencv-python>=4.8.0
+
+# Computación numérica
+numpy>=1.24.0
+
+# Visualización
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Manejo de datos
+pandas>=2.0.0
+PyYAML>=6.0
+
+# Deep Learning (PyTorch - instalar según tu sistema)
+# CPU only:
+torch>=2.0.0
+torchvision>=0.15.0
+# GPU (CUDA 11.8) - descomenta si tienes GPU NVIDIA:
+# torch>=2.0.0+cu118 --index-url https://download.pytorch.org/whl/cu118
+# torchvision>=0.15.0+cu118 --index-url https://download.pytorch.org/whl/cu118
+
+# Utilidades
+tqdm>=4.65.0
+pillow>=9.5.0
