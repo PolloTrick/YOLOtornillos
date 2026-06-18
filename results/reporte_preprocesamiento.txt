@@ -1,0 +1,10 @@
+
+REPORTE DE PREPROCESAMIENTO
+============================
+Dataset: Detección de Tornillos
+Total de imágenes procesadas: 417
+División:
+  - Train: 70%
+  - Val:   20%
+  - Test:  10%
+Semilla aleatoria: 42

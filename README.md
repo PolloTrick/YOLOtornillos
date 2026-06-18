@@ -2,10 +2,7 @@
 
 **Control de calidad automatizado en líneas de ensamblaje industrial**
 
-[![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://python.org)
-[![YOLOv8](https://img.shields.io/badge/YOLOv8-Ultralytics-orange)](https://ultralytics.com)
-[![License](https://img.shields.io/badge/Licencia-MIT-green)](LICENSE)
-
+Angel Francisco Jaramillo Pizeno 23310317
 ---
 
 ## 📋 Descripción
