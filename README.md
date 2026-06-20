@@ -5,6 +5,8 @@
 Angel Francisco Jaramillo Pizeno 23310317
 ---
 
+
+
 ## 📋 Descripción
 
 Este proyecto implementa un modelo de visión computacional basado en **YOLOv8** para detectar la **presencia o ausencia de tornillos** en piezas industriales. El objetivo es automatizar el control de calidad en líneas de manufactura, reduciendo errores humanos y aumentando la velocidad de inspección.
@@ -88,7 +90,7 @@ python scripts/02_entrenamiento.py
 python scripts/03_pruebas.py --test
 
 # Analizar una imagen
-python scripts/03_pruebas.py --imagen ruta/mi_pieza.jpg
+python scripts/03_pruebas.py --imagen dataset/pollo/test.jpg
 
 # Analizar una carpeta de imágenes
 python scripts/03_pruebas.py --carpeta dataset/images/test/
